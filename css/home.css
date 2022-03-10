@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+  
+}
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+   position: absolute;
+    text-transform: uppercase;
+    list-style: none;
+    left: 750px;
+    top: 10px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color:  #f53f3f;;
+    padding: 14px;
+    margin: 3px;
+    transition: background-color 1s;
+    border-radius: 5px;
+ }
+ nav#menu li:hover{
+     background-color: rgb(235, 213, 213);
+}
+ nav#menu a{
+     color: black;
+     text-decoration: none;
+ }
+header#cabecalho{
+    border-bottom: 1px rgb(0, 0, 0) solid; 
+    padding: 10px;
+    
+}
+nav#menu a:hover{
+    color: rgb(3, 3, 3);
+}
+.logo{
+    border-radius: 50%;
+    width: 80pt;
+    right: 20pt;
+}
+.logo_r{
+    border-radius: 50%;
+    width: 80pt;
+    padding-left: 10px;
+}
+.foto{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    display: block; 
+}
+
+.teste{
+    font-size: 15pt;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: -425px;
+    position: relative;
+    width: 10em;  
+}
+.title{
+    text-align: center;
+    padding-left: 20px;   
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image:url(../imagens/plano.jpg);
+}
+p{
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 2em;
+}
+h1{
+    color: white;
+    font-size: 4em;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    top: 1934%;
+    color: white;
+    border-top: 1px solid rgb(78, 78, 78);
+    width: 100%;
+    height: 10%
+}

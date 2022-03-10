@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+   
+}
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+   position: absolute;
+    text-transform: uppercase;
+    list-style: none;
+    left: 750px;
+    top: 10px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color:  #f53f3f;;
+    padding: 14px;
+    margin: 3px;
+    transition: background-color 1s;
+    border-radius: 5px;
+ }
+ nav#menu li:hover{
+     background-color: rgb(248, 248, 248);
+}
+ nav#menu a{
+     color: black;
+     text-decoration: none;
+ }
+header#cabecalho{
+    border-bottom: 1px black solid; 
+    width: 100%;
+    padding: 10px;
+}
+nav#menu a:hover{
+    color: rgb(0, 0, 0);
+}
+.logo{
+    border-radius: 50%;
+    width: 80pt;
+    right: 20pt;
+}
+.logo_r{
+    border-radius: 50%;
+    width: 80pt;
+    padding-left: 10px;
+}
+.foto{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    display: block;
+}
+body{
+    background: url(../imagens/plano.jpg); 
+    height: 100%;
+    width: 100%;
+}
+main h1{
+    text-align: center;
+    color: #ffff;
+    margin-top: 30px;
+    
+}
+p{
+    color: #ffff;
+    text-align: center;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+.pagamento a{
+    text-decoration: none;
+    color: #ffff;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;  
+}
+.pagamento{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.pagamento a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(138, 137, 137);
+    transition: 2s;
+
+}
+.VP{
+    color: #ffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    height: 190px;
+    left: 417px;
+    position: relative;  
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+ 
+.VP h2{
+    left: 195px;
+    position: absolute;
+    top: -1px;
+  
+}
+.VP h4{
+    position: absolute;
+    left: 10px;
+    top: 164px;
+}
+.VP img{
+    width: 250px;
+    height: 190px;
+}
+main img{
+    width: 100%;
+}
+@media screen and (min-width:768px) {
+    .VIP{
+        flex-direction:column;
+        flex-wrap:wrap;
+    }
+    .VIP{
+        width: 100%;
+    }
+    
+}
